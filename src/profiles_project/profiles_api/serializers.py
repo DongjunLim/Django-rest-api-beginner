@@ -30,4 +30,3 @@ class UserProfileSerializer(serializers.ModelSerializer):
         user.save()
 
         return user
-        
